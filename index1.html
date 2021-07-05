@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Zelle's Website</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+
+        .parent {
+            background-color: hsla(200, 100%, 20%);
+            height: 400px;
+            width: 400px;
+        }
+        
+        .child {
+            background-color: red;
+            height: 50%;
+            width: 50%;
+            animation: left-to-right 1s ease-in forwards infinite alternate;
+        }
+        
+        .parent:hover .child {
+            
+        }
+        
+        @keyframes left-to-right {
+            0% {
+                background-color: red;
+                transform: translateX(0);
+            }
+            33% {
+                transform: translateY(100%);
+            }
+            50% {
+                background-color: blue;
+            }
+            66% {
+                transform: translateX(100%) translateY(100%);
+            }
+            100% {
+                background-color: green;
+                transform: translateX(100%);
+            }
+        }
+        
+    </style>
+
+  </head>
+  <body class="bg-success">
+    
+  
+        <div class="parent">
+            <div class="child">
+            <img style="width: 40%;" src="https://lh3.googleusercontent.com/nhiyOvwq_2-4yI5Y1e32ovPv_OyQrukeEDcgNGJJlGkr91p1_r8TVvdvpEWfiw8U3JxYpPqUg8TbMfOhRr7st3PI0EwOGXs94L30jhQb8YwaNGmZ2FYbbowxVEdvQYhiPuZkBeiL228=w2400" alt="logo">
+            </div>
+        </div>
+
+         
+  </body>
+</html>
