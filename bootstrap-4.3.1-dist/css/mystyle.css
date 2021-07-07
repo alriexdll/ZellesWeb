@@ -1,0 +1,30 @@
+	body {
+			background: url("IMG_9358.jpg")no-repeat top center;
+			background-size: 100em;
+
+		}
+		.fcol {
+
+			color:rgb(182,227,237);
+		}
+		.fcol:hover {
+
+			color:red;
+		}
+		.new {
+
+			height: 500px;
+			width: 100%;
+			border-radius: 40px;
+
+		}
+		.thumbnail:hover {
+
+			height: 250px;
+			width: 300px;
+			border-radius: 0px;
+		}
+		@media screen and (max-width: 600px) {
+			.hide {display:none;}
+
+		}
